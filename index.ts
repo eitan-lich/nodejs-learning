@@ -23,6 +23,7 @@ wss.on("connection", (ws: any) => {
     ws.on("close", () => {
         console.log("Web socket server closed");
     });
+    
 });
 
 
